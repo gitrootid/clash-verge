@@ -15,10 +15,10 @@ const SIDECAR_HOST = execSync("rustc -vV")
   .match(/(?<=host: ).+(?=\s*)/g)[0];
 
 /* ======= clash ======= */
-const CLASH_STORAGE_PREFIX = "https://release.dreamacro.workers.dev/";
+const CLASH_STORAGE_PREFIX = "https://github.com/gitrootid/clash-core/releases/download/";
 const CLASH_URL_PREFIX =
-  "https://github.com/Dreamacro/clash/releases/download/premium/";
-const CLASH_LATEST_DATE = "latest";
+  "https://github.com/Kuingsmile/clash-core/releases/download/premium/";
+const CLASH_LATEST_DATE = "1.18.0";
 
 const CLASH_MAP = {
   "win32-x64": "clash-windows-amd64",
